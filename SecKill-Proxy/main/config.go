@@ -1,10 +1,10 @@
 package main
 
 import (
-	"SecKill/SecKill-Proxy/service"
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
+	"github.com/guxiaogang/SecKill-Proxy/service"
 )
 
 var (
