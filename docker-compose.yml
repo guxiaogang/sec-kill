@@ -1,0 +1,9 @@
+version: '2'
+services:
+  redis:
+    container_name: redis
+    image: redis
+    restart: always
+    command: --appendonly yes
+    ports:
+      - 6379:6379
